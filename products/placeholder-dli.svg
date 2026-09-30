@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f97316" />
+      <stop offset="100%" stop-color="#ea580c" />
+    </linearGradient>
+    <radialGradient id="glowGrad" cx="50%" cy="45%" r="40%">
+      <stop offset="0%" stop-color="#334155" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="600" fill="url(#bgGrad)" rx="16"/>
+  <circle cx="300" cy="270" r="180" fill="url(#glowGrad)"/>
+
+  <!-- Technical grid pattern overlay -->
+  <g stroke="#334155" stroke-width="0.75" stroke-dasharray="4,4" opacity="0.35">
+    <line x1="80" y1="150" x2="520" y2="150"/>
+    <line x1="80" y1="270" x2="520" y2="270"/>
+    <line x1="80" y1="390" x2="520" y2="390"/>
+    <line x1="200" y1="80" x2="200" y2="460"/>
+    <line x1="300" y1="80" x2="300" y2="460"/>
+    <line x1="400" y1="80" x2="400" y2="460"/>
+  </g>
+
+  <!-- Central Technical Automotive Icon -->
+  <g transform="translate(300, 260)" stroke="#94a3b8" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Outer Gear/Disc Cogwheel -->
+    <circle cx="0" cy="0" r="76" stroke="#475569" stroke-width="4"/>
+    <circle cx="0" cy="0" r="48" stroke="#f97316" stroke-width="3" stroke-dasharray="6,4"/>
+    <circle cx="0" cy="0" r="22" fill="#1e293b" stroke="#f97316" stroke-width="3"/>
+
+    <!-- Caliper / Component accent -->
+    <path d="M -54,-54 L -30,-72 C -10,-82 10,-82 30,-72 L 54,-54" stroke="#e2e8f0" stroke-width="4"/>
+    <path d="M -40,-40 L 40,40" stroke="#64748b" stroke-width="2"/>
+    <path d="M 40,-40 L -40,40" stroke="#64748b" stroke-width="2"/>
+    
+    <!-- Calibration crosshairs -->
+    <circle cx="0" cy="0" r="6" fill="#f97316"/>
+    <line x1="-90" y1="0" x2="-80" y2="0" stroke="#f97316" stroke-width="3"/>
+    <line x1="80" y1="0" x2="90" y2="0" stroke="#f97316" stroke-width="3"/>
+    <line x1="0" y1="-90" x2="0" y2="-80" stroke="#f97316" stroke-width="3"/>
+    <line x1="0" y1="80" x2="0" y2="90" stroke="#f97316" stroke-width="3"/>
+  </g>
+
+  <!-- Brand badge -->
+  <g transform="translate(300, 420)">
+    <rect x="-110" y="-18" width="220" height="36" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+    <text x="0" y="6" text-anchor="middle" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="14" letter-spacing="2">
+      DLI AUTOPEÇAS
+    </text>
+  </g>
+
+  <!-- Technical status label -->
+  <g transform="translate(300, 480)">
+    <text x="0" y="0" text-anchor="middle" fill="#e2e8f0" font-family="system-ui, -apple-system, sans-serif" font-weight="600" font-size="15">
+      Fotografia Real em Homologação
+    </text>
+    <text x="0" y="24" text-anchor="middle" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-weight="400" font-size="12">
+      Referência Técnica Validada • Catálogo MercadoCar
+    </text>
+  </g>
+</svg>
